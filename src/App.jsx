@@ -1,20 +1,18 @@
-import './App.css'
-import {Button, QRCode} from "antd";
+import { Landingpage } from "./pages/landingpage/landingpage";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
- 
   return (
     <>
-      <h1>Wellcome Cuppid</h1>
-        <QRCode
-            errorLevel="H"
-            value="https://ant.design/"
-            icon="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
-        />
-      <Button type={"primary"}>Click me</Button>
-
+      <BrowserRouter>
+        <Routes>
+          {/* <Route path="/" element={<Home />} /> */}
+          <Route path=""></Route>
+        </Routes>
+      </BrowserRouter>
+      <Landingpage></Landingpage>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
