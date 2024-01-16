@@ -82,23 +82,6 @@ export const Landingpage = () => {
   // useScript(".../../assets/js/wow.min.js");
   return (
     <>
-      {/*========== Preloader ==========*/}
-      <div className="preloader">
-        <div className="preloader-inner">
-          <div className="preloader-icon">
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-      </div>
-      {/*========== Preloader ==========*/}
-
-      {/*========== Overlay ==========*/}
-      <div className="overlay"></div>
-      <a href="#" className="scrollToTop">
-        <i className="fas fa-angle-up"></i>
-      </a>
-      {/*========== Overlay ==========*/}
 
       {/*========== Header-Section ==========*/}
       <Header />

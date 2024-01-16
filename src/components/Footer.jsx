@@ -52,7 +52,7 @@ function Footer() {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/contact-us">
                         <i className="fas fa-angle-double-right"></i> Contact Us
                       </a>
                     </li>
@@ -60,18 +60,6 @@ function Footer() {
                       <a href="#">
                         <i className="fas fa-angle-double-right"></i> Customer
                         Reviews
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fas fa-angle-double-right"></i> Success
-                        Stories
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fas fa-angle-double-right"></i> Business
-                        License
                       </a>
                     </li>
                   </ul>
@@ -91,12 +79,6 @@ function Footer() {
                       <a href="#">
                         <i className="fas fa-angle-double-right"></i> Safety
                         Tips
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fas fa-angle-double-right"></i> Account
-                        Varification
                       </a>
                     </li>
                     <li>
@@ -127,23 +109,6 @@ function Footer() {
                     <li>
                       <a href="#">
                         <i className="fas fa-angle-double-right"></i> FAQ
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fas fa-angle-double-right"></i>Quick Start
-                        Guide
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fas fa-angle-double-right"></i>Tutorials
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fas fa-angle-double-right"></i>Associate
-                        Blog
                       </a>
                     </li>
                   </ul>
@@ -197,7 +162,7 @@ function Footer() {
             <div className="row">
               <div className="col-lg-6 align-self-center">
                 <div className="copyr-text">
-                  <span>Copyright © 2023. All Rights Reserved By </span>
+                  <span>Copyright © 2024. All Rights Reserved By </span>
                   <a href="#">FA - JA06 Team</a>
                 </div>
               </div>
