@@ -9276,7 +9276,7 @@ input[type="submit"] {
   z-index: -1;
 }
 .log-reg .image.image-log {
-  background: url(../images/log.jpg) !important;
+  background: url("../images/log.jpg") !important;
 }
 .log-reg .log-reg-inner {
   padding-top: 30px;
@@ -9335,8 +9335,8 @@ input[type="submit"] {
 .log-reg .log-reg-inner .main-content .form-group .my-form-control {
   border: 1px solid rgba(59, 54, 140, 0.1);
   background-color: rgb(234, 242, 252);
-  -webkit-box-shadow: 1.948px 13.864px 6px 0px rgba(220, 234, 251, 0.3);
-  box-shadow: 1.948px 13.864px 6px 0px rgba(220, 234, 251, 0.3);
+  /* -webkit-box-shadow: 1.948px 13.864px 6px 0px rgba(220, 234, 251, 0.3);
+  box-shadow: 1.948px 13.864px 6px 0px rgba(220, 234, 251, 0.3); */
   font-size: 16px;
   color: #3b368c;
   padding: 0px 30px;
@@ -9541,8 +9541,8 @@ input[type="submit"] {
   margin-top: 9px;
   border: 1px solid rgba(59, 54, 140, 0.1);
   background-color: rgb(234, 242, 252);
-  -webkit-box-shadow: 1.948px 13.864px 6px 0px rgba(220, 234, 251, 0.3);
-  box-shadow: 1.948px 13.864px 6px 0px rgba(220, 234, 251, 0.3);
+  /* -webkit-box-shadow: 1.948px 13.864px 6px 0px rgba(220, 234, 251, 0.3);
+  box-shadow: 1.948px 13.864px 6px 0px rgba(220, 234, 251, 0.3); */
   padding: 10px 30px;
   border-radius: 50px;
   margin-bottom: 19px;

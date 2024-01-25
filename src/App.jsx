@@ -7,6 +7,7 @@ import Contact from "./pages/contact/Contact";
 // import Notifications from "./pages/user-setting/profile/Notifications";
 import UserSettings from "./pages/user-setting/UserSettings";
 import Checkout from "./pages/checkout/Checkout";
+import Login from "./pages/auth/Login";
 
 function App() {
   // const UserSettings = () => {
@@ -20,14 +21,15 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="*" element={<PageNotFound />} />
         <Route path="/" element={<Landingpage />} />
         <Route path="/home" element={<Landingpage />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/membership" element={<Membership />} />
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/user-setting" element={<UserSettings />} />
         <Route path="/user-setting/:option" element={<UserSettings />} />
         <Route path="/checkout" element={<Checkout />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </>
   );
